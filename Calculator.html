@@ -7,14 +7,28 @@
 		margin-left: 0px;
 		border:none;
 		
+	
+		
 	}
 	
-	.inputrow{
+	body: {
+		margin: 0px ;
+	
+	}
+	.input {
+		
+	}
+	.inputrow{ 
+		margin-right: 0px;
+
 	
 	}
 	
+	.operator:hover {
+		background-color: #FFB6B7;
+	}
 	.number:hover {
-		background-color: #E98F90
+		background-color: #FFB6B7;
 	}
 	
 	.number {
@@ -23,18 +37,27 @@
 		color: #FFFFFF ;
 		border: none ;
 		background: #FFE9E9;
-		margin-top: 0px ;
-		margin-bottom: 0px ;
-		margin-right: 0px ;
 		
 		
 		
 	}
 	
-	#display {
-		width: 240px;
+	.operator {
+		width: 50px ;
 		height: 50px ;
 		color: #FFFFFF ;
+		border: none ;
+		background: #E98687 ;
+		
+	
+	
+		
+		
+	}
+	#display {
+		width: 207px;
+		height: 50px ;
+		background: #FFFFFF ;
 		
 		
 	}
@@ -68,7 +91,7 @@
 			<input type="button" class="number" value="1" onclick="calculator.display.value +='1'">
 			<input type="button" class="number" value="2" onclick="calculator.display.value +='2'">
 			<input type="button" class="number" value="3" onclick="calculator.display.value +='3'">
-			<input type="button" class="operator" name="add" value="+" onclick="calculator.display.value +='+'">
+			
 		</div>
 		
 	  <div class="inputrow">
@@ -76,19 +99,21 @@
 		<input type="button" class="number" value="5" onclick="calculator.display.value +='5'">
 			<input type="button" class="number" value="6" onclick="calculator.display.value +='6'">
 			<input type="button" class="number" value="7" onclick="calculator.display.value +='7'">
-		  <input type="button" class="operator" name="subtract" value="-" onclick="calculator.display.value +='-'">
+		  
 </div>
 		
 		<div class="inputrow">
 			<input type="button" class="number" value="8" onclick="calculator.display.value +='8'">
 			<input type="button" class="number" value="9" onclick="calculator.display.value +='9'">
-			<input type="button" class="operator" name="add" value="clear" onclick="calculator.display.value =''">
+			<input type="button" class="operator" name="clear" value="clear" onclick="calculator.display.value =''">
 			<input type="button" class="operator" name="multiply" value="x" onclick="calculator.display.value +='x'">
 		</div>
 		
 		<div class="inputrow">
 			<input type="button" class="operator" name="equals" value="equals" onclick="calculator.display.value =eval(calculator.display.value)">
 			<input type="button" class="operator" name="divide" value="/" onclick="calculator.display.value +='/'">
+			<input type="button" class="operator" name="add" value="+" onclick="calculator.display.value +='+'">
+			<input type="button" class="operator" name="subtract" value="-" onclick="calculator.display.value +='-'">
 		</div>
 		
 	</div>
