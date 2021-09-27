@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head> 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+	
+ 
+
+<body>
+	
+	<style>
+		
+		
+	body {
+	background-image: url("../../Downloads/newwww-01.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 0px 0px 0px 0px;
+	height:1080px;
+	position: relative;
+
+		
+	}
+	
+	
+		#display { 
+			width: 85.5%;
+			height: 134px;
+			font-size: 150px;
+			color: #E4F5F5;
+			background: none;
+			text-align: right;
+			border: none;
+			color:#F6AC40;
+			
+		
+		}
+		
+		#myCalculator {
+			margin-left: 100px;
+			margin-right: 100px;
+			background-color: none;
+			
+			height: 1920px;
+			
+		}
+		
+		.number{
+			border-color: #F9AC3F;
+			border-style: solid;
+			float: left;
+			width: 25px;
+			height: 45px;
+			background-color:#000000;
+			margin-left: 3px;
+			margin-right: 3px;
+			margin-top: 3px;
+			margin-bottom: 8px;
+			text-emphasis-color: #EDB149;
+			color:#F7AC39;
+			
+			
+			
+		}
+		
+		.operator{
+			border-color: #F9AC3F;
+			border-style: solid;
+			float: left;
+			width: 45px;
+			height: 25px;
+			background-color:#000000;
+			margin-left: 3px;
+			margin-right: 3px;
+			margin-top: 3px;
+			margin-bottom: 3px;
+			color:#EDB34A;
+			
+			
+			
+		}
+		
+		.OP {
+		float: left;
+		background-color: none;
+		width: 100px;
+		height: 100%;
+		margin-top: 0px;
+		
+			
+		}
+		
+		.group1{
+			background-color:none;
+			text-allign: center;
+			margin-left:  0px;
+			margin-right: 60px;
+			margin-top: 70px;
+			align-content: center; 
+			height: 100%;
+			float:right;
+		}
+		
+		.group2{
+		background-color:none;
+		width: 180px;
+		margin-top: 0px;
+		margin-right: 0px;
+		float: left;
+			
+		}
+		
+		.clear{
+		background-color: none;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 50px;
+		position: relative;
+		float: left;
+		margin-left: 200px;
+			
+		}
+	
+		
+	</style>
+	
+	
+</body>
+	<form name="calculator">
+	<div id="myCalculator">
+		
+		<div id="top_display">
+		<input type="text" name="display" id="display" disabled>
+		</div>
+		
+		<div class="group1">
+		
+		<div class="group2">
+		
+		<div class="inputrow">
+			<input type="button" class="number" value="0" onclick="calculator.display.value +='0'">
+			<input type="button" class="number" value="1" onclick="calculator.display.value +='1'">
+			<input type="button" class="number" value="2" onclick="calculator.display.value +='2'">
+			<input type="button" class="number" value="3" onclick="calculator.display.value +='3'">
+			
+		</div>
+		
+	  <div class="inputrow">
+		<input type="button" class="number" value="4" onclick="calculator.display.value +='4'">
+		<input type="button" class="number" value="5" onclick="calculator.display.value +='5'">
+			<input type="button" class="number" value="6" onclick="calculator.display.value +='6'">
+			<input type="button" class="number" value="7" onclick="calculator.display.value +='7'">
+		  
+</div>
+		
+		<div class="inputrow">
+			<input type="button" class="number" value="8" onclick="calculator.display.value +='8'">
+			<input type="button" class="number" value="9" onclick="calculator.display.value +='9'">
+			
+		</div>
+			
+			</div>
+		
+		<div class="OP">
+			<input type="button" class="operator" name="multiply" value="x" onclick="calculator.display.value +='x'">
+			<input type="button" class="operator" name="equals" value= "="  onclick="calculator.display.value =eval(calculator.display.value)">
+			<input type="button" class="operator" name="divide" value="/" onclick="calculator.display.value +='/'">
+			<input type="button" class="operator" name="add" value="+" onclick="calculator.display.value +='+'">
+			<input type="button" class="operator" name="subtract" value="-" onclick="calculator.display.value +='-'">
+		</div>
+			
+		<div class="clear">
+			<input type="button" class="operator" name="clear" value="clear" onclick="calculator.display.value =''">
+			
+		</div>
+		
+		</div>
+		
+	</div>
+	
+</form>
+	
+	
+</html>
