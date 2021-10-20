@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bodybox {
+	font-family: 'Space Mono', monospace;
+}
+.topnav {
+	font-family:'Space Mono', monospace;
+}
+
+  :link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  
+
+}
+
+.Aboutme {
+	font-family:'Space Mono', monospace;
+}
+
+.circle {
+width:100px;
+height: 100px;
+background-color: transparent;
+position: absolute;
+margin:auto;
+top:400px;
+left:0;
+right:0;
+bottom:0;
+box-shadow: 25px 10px 0px 0px white;
+border-radius: 50%;
+  
+  background: none;
+  transition: width 2s;
+}
+ .circle:hover {
+    fill: #f0ebad ;
+}
