@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	
+	text-decoration: none;
+	color: black;
+}
+.title { 
+	
+	font-family: adorn-condensed-sans,sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 150px;
+	 text-decoration-line:none;
+
+}
+
+.nav { 
+	
+	font-family: adorn-condensed-sans,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 25px;
+	color: #000000;
+    text-decoration:none;
+    text-align: center;
+	position: absolute;
+
+}
+
+.titlebox {
+	
+position: absolute;
+	
+}
