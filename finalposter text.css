@@ -2,36 +2,138 @@
 /* CSS Document */
 
 
-body {
-	
-	text-decoration: none;
-	color: black;
-}
-.title { 
+.titlebox { 
 	
 	font-family: adorn-condensed-sans,sans-serif;
     font-weight: 400;
     font-style: normal; 
     font-size: 150px;
 	 text-decoration-line:none;
-
+	text-align: center;
+	color: white;
+	letter-spacing: 122px;
 }
 
-.nav { 
+
+.titlebox2 { 
+	
+	
+	margin-top: 0px;
+	margin-left: 1030px;
+	font-family: adorn-condensed-sans,sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 50px;
+	text-decoration-line:none;
+	color: white;
+	letter-spacing: 355px;
+}
+
+
+.aboutbox {
+	
 	
 	font-family: adorn-condensed-sans,sans-serif;
     font-weight: 400;
-    font-style: normal;
-	font-size: 25px;
-	color: #000000;
-    text-decoration:none;
-    text-align: center;
-	position: absolute;
-
+    font-style: normal; 
+    font-size: 60px;
+	text-decoration-line:none;
+	color: white;
+	line-height: 90px;
+	letter-spacing: 4px;
+}
+	
+.location { 
+	
+	
+	margin-top: 0px;
+	margin-left: 1030px;
+	font-family: adorn-condensed-sans,sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 100px;
+	text-decoration-line:none;
+	color: white;
+		
 }
 
-.titlebox {
+.Established {
+		margin-top: 0px;
+	margin-left: 1030px;
+	font-family: adorn-condensed-sans,sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 100px;
+	text-decoration-line:none;
+	color: white;
+		
 	
-position: absolute;
+	
+}
+
+.boat {
+	margin-top: 0px;
+	margin-left: 1030px;
+	font-family: adorn-condensed-sans,sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 50px;
+	text-decoration-line:none;
+	color: white;
+	text-align: right;
+	position: absolute;
+}
+
+
+.sightseeing {
+	
+	margin-top: 0px;
+	margin-left: 1030px;
+	font-family: adorn-condensed-sans,sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 50px;
+	text-decoration-line:none;
+	color: white;
+	
+	
+}
+
+.fishing {
+	
+	margin-top: 0px;
+	margin-left: 1030px;
+	font-family: adorn-condensed-sans,sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 50px;
+	text-decoration-line:none;
+	color: white;
+	
+}
+
+.tour {
+	
+	margin-top: 0px;
+	margin-left: 1030px;
+	font-family: adorn-condensed-sans,sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 50px;
+	text-decoration-line:none;
+	color: white;
+}
+
+
+.alsovist {
+	
+	margin-top: 0px;
+	margin-left: 1030px;
+	font-family: adorn-condensed-sans,sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 70px;
+	text-decoration-line:none;
+	color: white;
 	
 }
